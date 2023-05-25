@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Conteiners xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <entry>
+    <Record>
+      <name>Комаров Тимофей Игнатиевич</name>
+      <recordtype>Доход от вклада</recordtype>
+      <amountofmoney>15000</amountofmoney>
+      <deduction>false</deduction>
+      <date>2022-12-30T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Фомина Ксения Ярославовна</name>
+      <recordtype>Доход от продажи одежды</recordtype>
+      <amountofmoney>30000</amountofmoney>
+      <deduction>false</deduction>
+      <date>2023-04-01T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Лебедев Илья Маркович</name>
+      <recordtype>Доход от крупной сети ресторанов</recordtype>
+      <amountofmoney>40000</amountofmoney>
+      <deduction>false</deduction>
+      <date>2022-12-05T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Самсонов Артемий Андреевич</name>
+      <recordtype>Налоговый вычет</recordtype>
+      <amountofmoney>15900</amountofmoney>
+      <deduction>true</deduction>
+      <date>2023-01-01T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Воронцова София Михайловна</name>
+      <recordtype>Налоговый вычет</recordtype>
+      <amountofmoney>17800</amountofmoney>
+      <deduction>true</deduction>
+      <date>2022-12-05T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Петров Руслан Матвеевич</name>
+      <recordtype>Вычет из-за нераспроданного товара</recordtype>
+      <amountofmoney>140000</amountofmoney>
+      <deduction>true</deduction>
+      <date>2023-04-01T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Александрова Ева Егоровна</name>
+      <recordtype>Вычет из Гос. бюджета</recordtype>
+      <amountofmoney>40500</amountofmoney>
+      <deduction>true</deduction>
+      <date>2022-12-05T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Зиновьева Ясмина Артёмовна</name>
+      <recordtype>Вычет из бухгалтерии</recordtype>
+      <amountofmoney>34500</amountofmoney>
+      <deduction>true</deduction>
+      <date>2022-12-05T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Никитина Мария Львовна</name>
+      <recordtype>Вычет из-за нераспроданного товара</recordtype>
+      <amountofmoney>32000</amountofmoney>
+      <deduction>true</deduction>
+      <date>2023-01-01T00:00:00</date>
+    </Record>
+    <Record>
+      <name>Романов Владислав Борисович</name>
+      <recordtype>Доход от крупной сети ресторанов</recordtype>
+      <amountofmoney>23000</amountofmoney>
+      <deduction>false</deduction>
+      <date>2022-12-05T00:00:00</date>
+    </Record>
+  </entry>
+  <recordTypes>
+    <string>Налоговый вычет</string>
+    <string>Доход от вклада</string>
+    <string>Вычет из Гос. бюджета</string>
+    <string>Вычет из бухгалтерии</string>
+    <string>Доход от крупной сети ресторанов</string>
+    <string>Вычет из-за нераспроданного товара</string>
+    <string>Доход от продажи одежды</string>
+  </recordTypes>
+  <dates>
+    <dateTime>2022-12-30T00:00:00</dateTime>
+    <dateTime>2023-04-01T00:00:00</dateTime>
+    <dateTime>2022-12-05T00:00:00</dateTime>
+    <dateTime>2023-01-01T00:00:00</dateTime>
+  </dates>
+</Conteiners>

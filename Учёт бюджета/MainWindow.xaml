@@ -1,0 +1,35 @@
+﻿<Window x:Class="Учёт_бюджета.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Учёт_бюджета"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Loaded="Grid_Loaded">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <DataGrid x:Name="MyDG" AutoGenerateColumns="False"   RenderTransformOrigin="0.517,0.495" SelectionChanged="Razer_SelectionChanged" Grid.Column="0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding name}" MinWidth="80" Header="ФИО"/>
+                <DataGridComboBoxColumn x:Name="DGColumn" SelectedItemBinding="{Binding entrytype}" Header="Тип записи" MinWidth="120"/>
+                <DataGridTextColumn Binding="{Binding money}" MinWidth="120" Header="Количество денег"/>
+                <DataGridCheckBoxColumn Binding="{Binding deduction}" Visibility="Visible" Width="100" CanUserResize="True" MinWidth="50" Header="Вычет"/>
+                <DataGridTextColumn Binding="{Binding date, StringFormat=\{0:dd.MM.yyyy\}}" Header="Дата записи" MinWidth="120"/>
+            </DataGrid.Columns>
+            <DataGrid.CellStyle>
+                <Style/>
+            </DataGrid.CellStyle>
+            <ComboBox Width="120" Height="120" MaxDropDownHeight="120"/>
+        </DataGrid>
+        <ComboBox x:Name="DatePicker" ItemStringFormat="dd.MM.yyyy" Width="120" HorizontalAlignment="Center" VerticalAlignment="Top" SelectionChanged="RecordDatePicker_SelectionChanged" Grid.Column="1" RenderTransformOrigin="0.515,0.458" Margin="0,10,0,0"/>
+        <Button Content="Удалить запись" Grid.Column="1" Height="28" VerticalAlignment="Top" Margin="0,60,0,0" HorizontalAlignment="Center" Width="98" Click="Button_Click_1" RenderTransformOrigin="0.49,-0.434"/>
+        <Button Content="Добавить запись" Grid.Column="1" Height="28" VerticalAlignment="Top" Click="Button_Click_2" Margin="0,107,0,0" HorizontalAlignment="Center" Width="120"/>
+        <TextBox x:Name="MyInputBox" TextWrapping="Wrap" Height="28" Width="160" HorizontalAlignment="Center" TextChanged="TextBox_TextChanged" Grid.Column="1"/>
+    </Grid>
+</Window>

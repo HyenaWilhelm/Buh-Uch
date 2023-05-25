@@ -1,0 +1,21 @@
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\bin\Debug\net6.0-windows\Учёт бюджета.exe
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\bin\Debug\net6.0-windows\Учёт бюджета.deps.json
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\bin\Debug\net6.0-windows\Учёт бюджета.runtimeconfig.json
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\bin\Debug\net6.0-windows\Учёт бюджета.dll
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\bin\Debug\net6.0-windows\Учёт бюджета.pdb
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\obj\Debug\net6.0-windows\Учёт бюджета.csproj.AssemblyReference.cache
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\obj\Debug\net6.0-windows\Учёт бюджета_MarkupCompile.cache
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\obj\Debug\net6.0-windows\Учёт бюджета_MarkupCompile.lref
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\obj\Debug\net6.0-windows\Учёт бюджета.g.resources
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\obj\Debug\net6.0-windows\Учёт бюджета.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\obj\Debug\net6.0-windows\Учёт бюджета.AssemblyInfoInputs.cache
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\obj\Debug\net6.0-windows\Учёт бюджета.AssemblyInfo.cs
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\obj\Debug\net6.0-windows\Учёт бюджета.csproj.CoreCompileInputs.cache
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\obj\Debug\net6.0-windows\Учёт бюджета.dll
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\obj\Debug\net6.0-windows\refint\Учёт бюджета.dll
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\obj\Debug\net6.0-windows\Учёт бюджета.pdb
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\obj\Debug\net6.0-windows\Учёт бюджета.genruntimeconfig.cache
+C:\Users\Matvey\source\repos\Учёт бюджета\Учёт бюджета\obj\Debug\net6.0-windows\ref\Учёт бюджета.dll
